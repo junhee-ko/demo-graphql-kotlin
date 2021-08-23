@@ -1,6 +1,6 @@
 ## Sample Query
 
-Test by this query in play ground :
+Test by this query in play ground (http://localhost:8080/playground)
 
 ```graphql
 {
