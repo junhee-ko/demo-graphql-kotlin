@@ -1,6 +1,5 @@
 package me.jko.demo.graphql.kotlin
 
-import com.expediagroup.graphql.server.spring.execution.SpringGraphQLContext
 import com.expediagroup.graphql.server.spring.execution.SpringGraphQLContextFactory
 import org.springframework.stereotype.Component
 import org.springframework.web.reactive.function.server.ServerRequest
@@ -13,5 +12,3 @@ class MyGraphQLContextFactory : SpringGraphQLContextFactory<MyGraphQLContext>() 
         return MyGraphQLContext(customVal, request)
     }
 }
-
-class MyGraphQLContext(val myCustomValue: String, request: ServerRequest) : SpringGraphQLContext(request)
