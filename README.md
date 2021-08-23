@@ -34,3 +34,8 @@ Test by this query in play ground (http://localhost:8080/playground)
   }
 }
 ```
+
+## Reference
+
+KotlinConf 2019: Bootiful GraphQL with Kotlin by Dariusz Kuc & Guillaume Scheibel
+(https://www.youtube.com/watch?v=7YJyPXjLdug)
